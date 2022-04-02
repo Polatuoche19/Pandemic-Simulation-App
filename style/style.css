@@ -1,0 +1,109 @@
+
+
+/*
+Color pallette: https://colorhunt.co/palette/0000003d0000950101ff0000
+000000
+3D0000
+950101
+FF0000
+
+D8D2CB
+ */
+
+html, body {
+  margin:0;padding:0;
+  height:100%;
+  background-color:#000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  margin-bottom: 6%;
+  font-size: 140%;
+  font-weight: 900;
+  text-align:center;
+  border-bottom: solid 1px;
+}
+h2{
+  margin: 0.2%;
+  font-size: 125%;
+  font-weight: 900;
+  text-align:center;
+}
+#rbox {
+  height: auto;
+  position: relative;
+  padding: 3%;
+}
+#rboxcontent {
+  opacity: 90%;
+  margin-top: -12%;
+  margin-left: 95%;
+  display:none;
+  position: absolute;
+  height: auto;
+  width: 80%;
+  padding: 6%;
+  border-radius: 6px;
+}
+#rbox:hover #rboxcontent{
+  display: block;
+  background-color: #950101;
+}
+#rbox:hover{
+  height: auto;
+  border:none;
+  background-color: #3D0000;
+}
+#check {
+  border: solid 1px;
+  border-radius:inherit;
+  height: auto;
+  margin-bottom: 1%;
+}
+#checkTxt {
+  font-size: 80%;
+  margin-top: auto;
+  width: auto;
+  text-align: left;
+}
+#radiocont {
+  padding: 6%;
+}
+
+fieldset{
+  padding: 0;
+  width: 100%;
+  border: none;
+  margin: 0;
+  font-size: 70%;
+}
+input[type=radio] {
+  padding: 0%;
+  margin-right: 5%;
+  float: left;
+  transform: scale(2.5);
+}
+input[type=checkbox] {
+  margin-top: 6%;
+  margin-left: 8%;
+  margin-right: 6%;
+  padding: 0%;
+  width: auto;
+  float: left;
+  transform: scale(2.5);
+}
+label {
+  float: left;
+}
+#userMenu {
+  color:white;
+  margin: 0;
+  width:30%;
+  height: 100%;
+  padding:0%;
+  text-align: center;
+  font-size: 2vw;
+  border-right: solid 1px;
+  border-color: #D8D2CB;
+  float: left;
+}
